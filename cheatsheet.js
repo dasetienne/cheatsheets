@@ -93,13 +93,50 @@ if(country==="Zimbabwe"){
 
 // The Else statement: Let's you run code if test answer is FALSE
 
-if(country==="Taka-Tuka-Land"){
+var country= Mozambique
+
+if(country==="Zimbabwe"){
 	alert("The capital of Zimbabwe is Harare!");
 	} else{
 	alert("We have no information about this country!")
 	}
 
 // The above statement will display the second option, as input is false.
+
+
+// Functions added for homework Class 6
+
+
+// Function 1
+var x=10
+console.log(x+12)
+
+// Function 2
+
+var athlete= "Michael Jordan"
+var activity= "Drunk Driving"
+
+alert("The " + athlete + " of " activity )
+
+// Function 3
+
+var revdoor= "I push!"
+
+if (revdoor=== "We push!"){
+	alert("This is how it should be!");
+// } else (revdoor=== "I push!"){
+// if else
+
+} else if (revdoor=== "I push!"){
+	alert("That's wrong we are equal!");
+}
+
+} else {
+	alert("Might be wrong, might be right!")
+}
+
+// Shirmung: Function doesn't work with the last else, would you happen to know why?
+
 
 
 
