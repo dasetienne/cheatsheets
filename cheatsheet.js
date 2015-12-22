@@ -154,6 +154,14 @@ alert(simplePhrase("Horst", "very German!"));
 
 // Second function with strings does not work. 
 
+function function3 (randomNr1, randomNr2){
+	return 5* randomNr2 + randomNr1;
+}
+
+console.log(function3(4,8));
+
+
+
 
 
 
