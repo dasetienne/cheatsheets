@@ -124,12 +124,11 @@ var revdoor= "I push!"
 
 if (revdoor=== "We push!"){
 	alert("This is how it should be!");
-// } else (revdoor=== "I push!"){
-// if else
 
 } else if (revdoor=== "I push!"){
 	alert("That's wrong we are equal!");
 }
+
 
 } else {
 	alert("Might be wrong, might be right!")
