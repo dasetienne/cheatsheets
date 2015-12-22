@@ -135,7 +135,24 @@ if (revdoor=== "We push!"){
 	alert("Might be wrong, might be right!")
 }
 
-// Shirmung: Function doesn't work with the last else, would you happen to know why?
+// Shirmung: Function doesn't work with the last else, would you happen to know why? Without the Else it works fine.
+
+// Other functions:
+
+function simpleFunction (firstNumber, secondNumber){
+	return secondNumber + 20 + firstNumber;
+}
+
+alert(simpleFunction(20,14));
+
+
+function simeplePhrase (aName, anAttribute){
+	return aName + "is" + anAttribute;
+}
+
+alert(simplePhrase("Horst", "very German!"));
+
+// Second function with strings does not work. 
 
 
 
