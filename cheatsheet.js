@@ -17,6 +17,8 @@ alert("cat"+"dog")
 
 console.log(x+5)
 
+document.getElementID("some-name")innerHTML = "NEW TEXT"
+
 // Use comments to explain changes in the code, e.g:
 
 //Changed footer of this document
