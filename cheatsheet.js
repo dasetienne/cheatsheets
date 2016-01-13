@@ -17,7 +17,7 @@ alert("cat"+"dog")
 
 console.log(x+5)
 
-document.getElementID("some-name")innerHTML = "NEW TEXT"
+document.getElementByID("some-name").innerHTML = "NEW TEXT";
 
 // Use comments to explain changes in the code, e.g:
 
@@ -54,7 +54,7 @@ Undefined(no value)
 
 // Arrays include different data sets. They can also include different datatypes like for example strings or numbers. They are displayed in []
 
-var authors- ["Hesse", "Bukowski", "Frantzen", "Houellebecq"];
+var authors= ["Hesse", "Bukowski", "Frantzen", "Houellebecq"];
 
 var countries= ["France", "Germany", "USA", "Great Britain"];
 
@@ -66,19 +66,19 @@ var all= ["authors", "countries"];
 
 // Select within multidimensional arrays by defining position within (First position is 0). Don't forget;
 
-alert(all [1][0]);
+alert(all[1][0]);
 >France
 
-console.log(all [0][2])
+console.log(all[0][2])
 >Frantzen
 
 // Other data types:
 
 // Objects
 
-var demian = {author: 'Herman Hesse'; published: '1919'};
+var demian = [author: 'Herman Hesse'; published: '1919'];
 
-console.log[demian['author']]
+console.log(demian[author]);
 >Herman Hesse
 
 // You can also use dot notation to pull data out of an object
@@ -147,7 +147,7 @@ function simpleFunction (firstNumber, secondNumber){
 alert(simpleFunction(20,14));
 
 
-function simeplePhrase (aName, anAttribute){
+function simplePhrase (aName, anAttribute){
 	return aName + "is" + anAttribute;
 }
 
